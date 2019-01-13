@@ -29,27 +29,27 @@
   margin-top: 8px;
 }
 
-/* line 8, ../sass/screen.scss */
+/* line 9, ../sass/screen.scss */
 .margin-indent {
   margin-inline-start: 32px;
 }
 
-/* line 10, ../sass/screen.scss */
+/* line 11, ../sass/screen.scss */
 .fixup {
   padding-bottom: 8px;
 }
 
-/* line 12, ../sass/screen.scss */
+/* line 13, ../sass/screen.scss */
 .hidden {
   display: none;
 }
 
-/* line 14, ../sass/screen.scss */
+/* line 15, ../sass/screen.scss */
 :root {
   font-size: 16px;
 }
 
-/* line 18, ../sass/screen.scss */
+/* line 19, ../sass/screen.scss */
 body {
   font-family: 'Merriweather', serif;
   /*font-size: 17px;*/
@@ -57,21 +57,21 @@ body {
   line-height: 1.8;
 }
 
-/* line 25, ../sass/screen.scss */
+/* line 26, ../sass/screen.scss */
 #carousel {
   display: block !important;
   margin-top: 16px;
   height: 400px;
 }
 
-/* line 31, ../sass/screen.scss */
+/* line 32, ../sass/screen.scss */
 #carousel img {
   width: 100%;
   float: left;
   padding-bottom: 16px;
 }
 
-/* line 37, ../sass/screen.scss */
+/* line 38, ../sass/screen.scss */
 a {
   text-decoration: none;
   background-image: linear-gradient(90deg, #ff9a9e 0%, #fad0c4 100%);
@@ -81,7 +81,7 @@ a {
   color: inherit;
 }
 
-/* line 46, ../sass/screen.scss */
+/* line 47, ../sass/screen.scss */
 a.follow {
   text-decoration: none;
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(250, 208, 196, 0.2)), to(rgba(250, 208, 196, 0.2)));
@@ -92,19 +92,19 @@ a.follow {
   color: inherit;
 }
 
-/* line 61, ../sass/screen.scss */
+/* line 62, ../sass/screen.scss */
 body {
   background-color: #fff;
   color: #222;
 }
 
-/* line 65, ../sass/screen.scss */
+/* line 66, ../sass/screen.scss */
 body.nightmode {
   background-color: #2b2b2b;
   color: #f0f0f0;
 }
 
-/* line 69, ../sass/screen.scss */
+/* line 70, ../sass/screen.scss */
 .project-title {
   /*font-size: 14px;*/
   text-transform: uppercase;
@@ -114,13 +114,13 @@ body.nightmode {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* line 78, ../sass/screen.scss */
+/* line 79, ../sass/screen.scss */
 ::-moz-selection {
   background: rgba(0, 255, 218, 0.3);
   color: #222;
 }
 
-/* line 83, ../sass/screen.scss */
+/* line 84, ../sass/screen.scss */
 ::selection {
   background: rgba(0, 255, 218, 0.3);
   color: #222;
@@ -128,19 +128,19 @@ body.nightmode {
 
 /* Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
-  /* line 91, ../sass/screen.scss */
+  /* line 92, ../sass/screen.scss */
   body .inex p {
     font-size: 0.75rem;
     line-height: 1.8 !important;
   }
 
-  /* line 96, ../sass/screen.scss */
+  /* line 97, ../sass/screen.scss */
   .inex p.on {
     display: block;
     margin-top: 12px;
   }
 
-  /* line 98, ../sass/screen.scss */
+  /* line 99, ../sass/screen.scss */
   .project-title {
     font-size: 0.625rem;
   }
