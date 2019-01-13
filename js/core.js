@@ -44,14 +44,14 @@ document.querySelectorAll('.inex a').forEach(function(link) {
     }
 
   }
-  
+
   var nmt = document.querySelector('.nightmode-toggle-me');
   var nmp = document.querySelector('.nightmode-para');
   //var normalHello = document.querySelector('.normal-hello-para');
 
   var nowMoment = moment().format('HH')
 
-  if ( nowMoment > 19 || nowMoment < 5) {
+  if ( nowMoment >= 19 || nowMoment <= 5) {
       nmp.classList.remove("hidden");
       //normalHello.classList.add("hidden");
   }
