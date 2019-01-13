@@ -54,9 +54,6 @@ document.querySelectorAll('.inex a').forEach(function(link) {
   if ( nowMoment > 19 || nowMoment < 5) {
       nmp.classList.remove("hidden");
       //normalHello.classList.add("hidden");
-  } else {
-      nmp.classList.add("hidden");
-      //normalHello.classList.remove("hidden");
   }
 
   nmt.onclick = function() {
