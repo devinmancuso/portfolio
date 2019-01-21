@@ -24,15 +24,16 @@ body {
 }
 
 #carousel {
-  display: block !important;
+  display: inline-table !important;
   margin-top: 16px;
   height: 400px;
+  width: 720px;
+  max-width: 720px;
 }
 
 #carousel img {
-    width: 100%;
-    float: left;
-    padding-bottom: 16px;
+  width: 100%;
+  padding-bottom: 16px;
 }
 
 a {
@@ -53,6 +54,10 @@ a.follow {
     background-position: 0 88%;
     color: inherit;
   }
+
+a.imglink {
+    background-image: none !important;
+}  
 
 @mixin content($color-page-background, $color-primary-font) {
     background-color: $color-page-background;
