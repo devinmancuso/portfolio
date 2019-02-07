@@ -165,3 +165,12 @@ body.nightmode glitter {
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
+
+/* line 120, ../sass/screen.scss */
+body glitter {
+  color: #222;
+  background: -webkit-linear-gradient(transparent, transparent), url(../images/glitter-dark.gif) repeat 100px 20px;
+  background: -o-linear-gradient(transparent, transparent) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
