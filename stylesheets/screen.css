@@ -132,22 +132,36 @@ body.nightmode {
   color: #222;
 }
 
+/* line 94, ../sass/screen.scss */
+body.nightmode ::selection {
+  background: rgba(250, 208, 196, 0.87);
+  color: #222;
+}
+
 /* Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
-  /* line 97, ../sass/screen.scss */
+  /* line 102, ../sass/screen.scss */
   body .inex p {
     font-size: 0.75rem;
     line-height: 1.8 !important;
   }
 
-  /* line 102, ../sass/screen.scss */
+  /* line 107, ../sass/screen.scss */
   .inex p.on {
     display: block;
     margin-top: 12px;
   }
 
-  /* line 104, ../sass/screen.scss */
+  /* line 109, ../sass/screen.scss */
   .project-title {
     font-size: 0.625rem;
   }
+}
+/* line 112, ../sass/screen.scss */
+body.nightmode glitter {
+  color: #222;
+  background: -webkit-linear-gradient(transparent, transparent), url(../images/glitter.gif) repeat 100px 20px;
+  background: -o-linear-gradient(transparent, transparent) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
 }

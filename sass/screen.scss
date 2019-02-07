@@ -91,6 +91,11 @@ body.nightmode {
     color: #222;
 }
 
+body.nightmode ::selection {
+    background: rgba(250, 208, 196, 0.87);
+    color: #222;
+}
+
 /* Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
     
@@ -102,4 +107,12 @@ body.nightmode {
     .inex p.on {display: block; margin-top: 12px;}
 
     .project-title {font-size: 0.625rem;}
+}
+
+body.nightmode glitter {
+    color:#222;
+    background: -webkit-linear-gradient(transparent,transparent), url(../images/glitter.gif) repeat 100px 20px;
+    background: -o-linear-gradient(transparent,transparent) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
 }
