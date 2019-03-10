@@ -62,17 +62,16 @@ body {
   display: inline-table !important;
   margin-top: 16px;
   height: 400px;
-  width: 720px;
   max-width: 720px;
 }
 
-/* line 34, ../sass/screen.scss */
+/* line 33, ../sass/screen.scss */
 #carousel img {
   width: 100%;
   padding-bottom: 16px;
 }
 
-/* line 39, ../sass/screen.scss */
+/* line 38, ../sass/screen.scss */
 a {
   text-decoration: none;
   background-image: linear-gradient(90deg, #ff9a9e 0%, #fad0c4 100%);
@@ -82,7 +81,7 @@ a {
   color: inherit;
 }
 
-/* line 48, ../sass/screen.scss */
+/* line 47, ../sass/screen.scss */
 a.follow {
   text-decoration: none;
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(250, 208, 196, 0.2)), to(rgba(250, 208, 196, 0.2)));
@@ -93,24 +92,24 @@ a.follow {
   color: inherit;
 }
 
-/* line 58, ../sass/screen.scss */
+/* line 57, ../sass/screen.scss */
 a.imglink {
   background-image: none !important;
 }
 
-/* line 67, ../sass/screen.scss */
+/* line 66, ../sass/screen.scss */
 body {
   background-color: #fff;
   color: #222;
 }
 
-/* line 71, ../sass/screen.scss */
+/* line 70, ../sass/screen.scss */
 body.nightmode {
   background-color: #2b2b2b;
   color: #f0f0f0;
 }
 
-/* line 75, ../sass/screen.scss */
+/* line 74, ../sass/screen.scss */
 .project-title {
   /*font-size: 14px;*/
   text-transform: uppercase;
@@ -120,19 +119,19 @@ body.nightmode {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* line 84, ../sass/screen.scss */
+/* line 83, ../sass/screen.scss */
 ::-moz-selection {
   background: rgba(0, 255, 218, 0.3);
   color: #222;
 }
 
-/* line 89, ../sass/screen.scss */
+/* line 88, ../sass/screen.scss */
 ::selection {
   background: rgba(0, 255, 218, 0.3);
   color: #222;
 }
 
-/* line 94, ../sass/screen.scss */
+/* line 93, ../sass/screen.scss */
 body.nightmode ::selection {
   background: rgba(250, 208, 196, 0.87);
   color: #222;
@@ -140,24 +139,24 @@ body.nightmode ::selection {
 
 /* Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
-  /* line 102, ../sass/screen.scss */
+  /* line 101, ../sass/screen.scss */
   body .inex p {
     font-size: 0.75rem;
     line-height: 1.8 !important;
   }
 
-  /* line 107, ../sass/screen.scss */
+  /* line 106, ../sass/screen.scss */
   .inex p.on {
     display: block;
     margin-top: 12px;
   }
 
-  /* line 109, ../sass/screen.scss */
+  /* line 108, ../sass/screen.scss */
   .project-title {
     font-size: 0.625rem;
   }
 }
-/* line 112, ../sass/screen.scss */
+/* line 111, ../sass/screen.scss */
 body.nightmode glitter {
   color: #222;
   background: -webkit-linear-gradient(transparent, transparent), url(../images/glitter.gif) repeat 100px 20px;
@@ -166,7 +165,7 @@ body.nightmode glitter {
   -webkit-text-fill-color: transparent !important;
 }
 
-/* line 120, ../sass/screen.scss */
+/* line 119, ../sass/screen.scss */
 body glitter {
   color: #222;
   background: -webkit-linear-gradient(transparent, transparent), url(../images/glitter-dark.gif) repeat 100px 20px;
