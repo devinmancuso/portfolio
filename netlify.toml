@@ -2,3 +2,8 @@
   from = "/dept"
   to = "https://docs.google.com/document/d/1UNNQqmo7Dzem7t9pGCf3XC0c0zpMyHfL7Ir-6edWv4Q/preview"
   status = 301
+
+[[redirects]]
+  from = "/live"
+  to = "https://us02web.zoom.us/j/6987520425"
+  status = 301
