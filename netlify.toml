@@ -7,3 +7,8 @@
   from = "/live"
   to = "https://us02web.zoom.us/j/6987520425"
   status = 301
+
+[[redirects]]
+  from = "/buy"
+  to = "https://link.mintgate.app/drop/jIfAFnWKDqCfd5Kd"
+  status = 301
